@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #E5ECE9;
+    /* background-color: black; */
+    /* background: rgba(103, 137, 131, 0.4); */
+    /* color: aliceblue; */
+    /* background-color:#1E1E1E; */
+    /* background: #2C3333;
+backdrop-filter: blur(2px); */
+}
+
+.spotify-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 500px;
+    height: 215px;
+    margin: 50px auto;
+}
+
+.spotify-wrapper nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+    height: 45px;
+    background: rgba(103, 137, 131, 0.45);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 13px 13px 0px 0px;
+    background-color: #678983;
+}
+
+.spotify-wrapper nav #spotify {
+
+    padding: 4px 18px 5px 21px;
+    height: 42px;
+    /* background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), rgba(103, 137, 131, 0.4); */
+    box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.3);
+    border-radius: 13px 0px 0px 0px;
+    border: none;
+
+}
+
+.spotify-wrapper nav .spot-btn,
+.spotify-wrapper nav .radio-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+    
+
+}
+/* upon hover or foucus */
+.spotify-wrapper nav #spotify:hover,
+.spotify-wrapper nav #spotify:focus,
+.spotify-wrapper nav #radio:hover,
+.spotify-wrapper nav #radio:focus  {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), rgba(103, 137, 131, 0.4); 
+}
+
+
+.spotify-wrapper nav .spot-btn h4,
+.spotify-wrapper nav .radio-btn h4 {
+    margin-left: 7px;
+
+    /* font-family: 'Faustina'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    align-items: center;
+}
+
+.spotify-wrapper nav #radio {
+    padding: 4px 18px 5px 21px;
+    height: 42px;
+    /* background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), rgba(103, 137, 131, 0.4); */
+    box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.3);
+    border: none;
+    margin-left: -4px;
+}
+
+button {
+    appearance: none;
+    background: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+#login {
+    /* display: none; */
+    /* width: 500px; */
+    background: rgba(27, 45, 42, 0.79);
+    width: inherit;
+    height: 172px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    /* background: rgb(17 8 98 / 95%); */
+}
+
+/* this is the link to ur spotify btn */
+#login-button {
+    background: rgba(84, 106, 123, 0.6);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 7px 42px 8px 41px;
+    margin: 5px;
+    margin-top: -20px;
+
+    /* for the text inside the btn */
+    /* font-family: 'Faustina'; */
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+#login-button:hover,
+#login-button:focus {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    opacity: 0.9;
+}
+
+#login p {
+    font-family: 'arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    padding: 0 25px 0 35px;
+    align-items: center;
+    text-align: center;
+}
+
+
+/* for the post login in spotify */
+.post-login{
+    /* display: flex; */
+    /* flex-direction: column; */
+    width: 500px;
+    background-color: #678983;
+    display: none;
+}
+
+.post-login .spot-btns {
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    width: 112px;
+    /* background-color: #090c0b; */
+    width: inherit;
+}
+
+
+.header-btn {
+    background-color: #090c0b;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 8px 15px 8px 9px;
+    border-radius: 7px;
+}
+h5 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    font-size: 22px;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+.playlists {
+    display: flex;
+    text-align: center;
+}
