@@ -144,3 +144,86 @@ iframe{
 #back-to-main:hover{
   opacity: 0.9;
 }
+
+/*  to make the code responsive */
+@media (min-width: 768px) {
+  .media-wrapper {
+    /* width: 430px; */
+    /* height: 600px; */
+    margin: 100px auto;
+  }
+  
+  .media-wrapper .media-tabs {
+    /* width: 700px; */
+    height: 55px;
+  }
+
+  .media-wrapper .media-tabs #spotify-tab {
+    padding: 4px 25px 5px 30px;
+    height: 50px;
+  }
+
+  .media-wrapper .media-tabs #radio-tab {
+    padding: 4px 25px 5px 30px;
+    height: 50px;
+  }
+
+  .media-wrapper .spot-content {
+    /* max-height: 500px; */
+    /* width: 700px; */
+    padding: 20px 2px 20px 20px;
+  }
+
+  img {
+    width: 150px;
+    height: 240px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-right: 6px;
+  }
+}
+
+@media (max-width: 767px) {
+  .media-wrapper {
+    /* width: 100%; */
+    width: 100px;
+    /* height: auto; */
+    margin: 50px auto;
+    border-radius: 0px;
+  }
+
+  .media-wrapper .media-tabs {
+    /* width: 100%; */
+    width: 270px;
+    height: 50px;
+    /* border-radius: 0px; */
+    /* border-radius: 13px; */
+  }
+
+  .media-wrapper .media-tabs #spotify-tab {
+    padding: 4px 10px 5px 15px;
+    height: 50px;
+    /* border-radius: 0px; */
+  }
+
+  .media-wrapper .media-tabs #radio-tab {
+    padding: 4px 10px 5px 15px;
+    height: 50px;
+    border-radius: 0px;
+    margin-left: -4px;
+  }
+
+  .media-wrapper .spot-content {
+    max-height: none;
+    width: 270px;
+    padding: 10px 10px 10px 10px;
+  }
+
+  img {
+    width: 100px;
+    height: 150px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-right: 4px;
+  }
+}
